@@ -3,8 +3,11 @@ import Toybox.WatchUi;
 
 class LoggerekDelegate extends WatchUi.BehaviorDelegate {
 
-    function initialize() {
+    var view;
+
+    function initialize(view) {
         BehaviorDelegate.initialize();
+        self.view = view;
         Communications.registerForPhoneAppMessages(method(:phoneMessageCallback));
     }
 
@@ -12,6 +15,7 @@ class LoggerekDelegate extends WatchUi.BehaviorDelegate {
         if(keyEvent.getKey() == 4){
             System.println("Key 4 pressed");
             sendRequestForData();
+                    view.update("dxxd");
         }
         return true;
     }
@@ -44,11 +48,14 @@ class LoggerekDelegate extends WatchUi.BehaviorDelegate {
 
        function phoneMessageCallback(msg as Toybox.Communications.PhoneAppMessage) as Void {
       System.println(msg.data);
+      System.println(msg.data["items"][0]["title"]);
+//      System.println(msg["items"]);
+    //   System.println(msg.data["items"]);
     }
 
 
     function onMenu() as Boolean {
-        var menu = new WatchUi.Menu2({:title=>"My Menu2"});
+        var menu = new WatchUi.Menu2({:title=>"Caches"});
         var delegate;
         menu.addItem(
             new MenuItem(
@@ -68,6 +75,7 @@ class LoggerekDelegate extends WatchUi.BehaviorDelegate {
         );
 //        delegate = new MyMenu2Delegate(); // a WatchUi.Menu2InputDelegate
         WatchUi.pushView(menu, new LoggerekMenuDelegate(), WatchUi.SLIDE_IMMEDIATE);
-        return true;    }
+        return true;    
+        }
 
 }

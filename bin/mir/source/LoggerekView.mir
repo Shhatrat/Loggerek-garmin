@@ -44,20 +44,55 @@ _Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekView_mc_11_40_13_4_stop:
     [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekView.mc"; @line = 18; @symbol_functiondef = [onShow,18,13,19]; ]
     function onShow() as Void {
     }
-    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekView.mc"; @line = 22; @symbol_functiondef = [onUpdate,22,13,21]; @symbol_param<0> = [dc,22,22,24]; @symbol_param<0>_type<0> = [Dc,22,28,30]; ]
+    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekView.mc"; @line = 21; @symbol_functiondef = [update,21,13,19]; @symbol_param<0> = [text,21,20,24]; ]
+    function update(text) {
+_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekView_mc_21_25_24_4_start:
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekView.mc" 22 8 ]
+        %tmp.1 = lgetv %text;
+        symbol [ text %tmp.1 22 18 22 ];
+        symbol [ message ? 22 8 15 ];
+        putv self :message %tmp.1;
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekView.mc" 23 8 ]
+        %tmp.2 = self;
+        symbol [ requestUpdate %tmp.3 23 8 21 ];
+        %tmp.3 = getv function %tmp.2 :requestUpdate;
+        invoke %tmp.2 %tmp.3();
+_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekView_mc_21_25_24_4_stop:
+    }
+    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekView.mc"; @line = 26; @position = 8; @symbol_vardef = [message,26,8,15]; ]
+    var message = "entry";
+    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekView.mc"; @line = 29; @symbol_functiondef = [onUpdate,29,13,21]; @symbol_param<0> = [dc,29,22,24]; @symbol_param<0>_type<0> = [Dc,29,28,30]; ]
     function onUpdate(dc as Dc) as Void {
-_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekView_mc_22_40_25_4_start:
-[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekView.mc" 24 8 ]
-        symbol [ View %tmp.2 24 8 12 ];
+_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekView_mc_29_40_34_4_start:
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekView.mc" 31 8 ]
+        symbol [ View %tmp.2 31 8 12 ];
         %tmp.2 = getv ? :View;
-        symbol [ onUpdate %tmp.3 24 13 21 ];
+        symbol [ onUpdate %tmp.3 31 13 21 ];
         %tmp.3 = getv function %tmp.2 :onUpdate;
         %tmp.4 = lgetv %dc;
-        symbol [ dc %tmp.4 24 22 24 ];
+        symbol [ dc %tmp.4 31 22 24 ];
         invoke %tmp.2 %tmp.3(%tmp.4);
-_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekView_mc_22_40_25_4_stop:
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekView.mc" 32 8 ]
+        %tmp.5 = lgetv %dc;
+        symbol [ dc %tmp.5 32 8 10 ];
+        symbol [ drawText %tmp.6 32 11 19 ];
+        %tmp.6 = getv function %tmp.5 :drawText;
+        %tmp.7 = 100;
+        %tmp.8 = 50;
+        symbol [ Graphics %tmp.9 32 29 37 ];
+        %tmp.9 = getm $.Toybox.Graphics;
+        symbol [ FONT_LARGE %tmp.10 32 38 48 ];
+        %tmp.10 = getv %tmp.9 :FONT_LARGE;
+        symbol [ message %tmp.12 32 50 57 ];
+        %tmp.12 = getv ? :message;
+        symbol [ Graphics %tmp.13 32 59 67 ];
+        %tmp.13 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.14 32 68 87 ];
+        %tmp.14 = getv %tmp.13 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.5 %tmp.6(%tmp.7, %tmp.8, %tmp.10, %tmp.12, %tmp.14);
+_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekView_mc_29_40_34_4_stop:
     }
-    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekView.mc"; @line = 30; @symbol_functiondef = [onHide,30,13,19]; ]
+    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekView.mc"; @line = 39; @symbol_functiondef = [onHide,39,13,19]; ]
     function onHide() as Void {
     }
 }

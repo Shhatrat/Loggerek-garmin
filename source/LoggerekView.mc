@@ -18,10 +18,19 @@ class LoggerekView extends WatchUi.View {
     function onShow() as Void {
     }
 
+    function update(text){
+        message = text;
+        requestUpdate();
+    }
+
+    var message = "entry";
+
     // Update the view
     function onUpdate(dc as Dc) as Void {
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
+        dc.drawText(100, 50, Graphics.FONT_LARGE, message, Graphics.TEXT_JUSTIFY_CENTER);
+
     }
 
     // Called when this View is removed from the screen. Save the
