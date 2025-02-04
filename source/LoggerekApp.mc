@@ -6,12 +6,6 @@ class LoggerekApp extends Application.AppBase {
 
     function initialize() {
         AppBase.initialize();
-        Communications.registerForPhoneAppMessages(method(:phoneMessageCallback));
-        System.print("DUPA");
-    }
-
-   function phoneMessageCallback(msg as Toybox.Communications.PhoneAppMessage) as Void {
-      System.println(msg.data);
     }
 
     // onStart() is called on application start up

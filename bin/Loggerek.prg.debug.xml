@@ -3,8 +3,8 @@
     <manifest filename="/Users/szymon/garmin/Loggerek/Loggerek/manifest.xml"/>
     <pcToLineNum>
         <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekMenuDelegate.mc" id="1" lineNum="5" parent="globals/LoggerekMenuDelegate" pc="268435460" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc" id="2" lineNum="33" parent="globals" pc="268435472" symbol="getApp"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc" id="2" lineNum="34" parent="globals" pc="268435482" symbol="getApp"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc" id="2" lineNum="27" parent="globals" pc="268435472" symbol="getApp"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc" id="2" lineNum="28" parent="globals" pc="268435482" symbol="getApp"/>
         <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekView.mc" id="3" lineNum="4" parent="globals/LoggerekView" pc="268435493" symbol="&lt;init&gt;"/>
         <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc" id="4" lineNum="5" parent="globals/LoggerekApp" pc="268435505" symbol="&lt;init&gt;"/>
         <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="5" lineNum="7" parent="globals/Rez" pc="268435517" symbol="&lt;init&gt;"/>
@@ -22,61 +22,79 @@
         <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekView.mc" id="11" lineNum="7" parent="globals/LoggerekView" pc="268435669" symbol="initialize"/>
         <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekView.mc" id="13" lineNum="22" parent="globals/LoggerekView" pc="268435682" symbol="onUpdate"/>
         <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekView.mc" id="13" lineNum="24" parent="globals/LoggerekView" pc="268435684" symbol="onUpdate"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc" id="14" lineNum="18" parent="globals/LoggerekApp" pc="268435701" symbol="onStart"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc" id="15" lineNum="27" parent="globals/LoggerekApp" pc="268435704" symbol="getInitialView"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc" id="15" lineNum="28" parent="globals/LoggerekApp" pc="268435706" symbol="getInitialView"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc" id="14" lineNum="12" parent="globals/LoggerekApp" pc="268435701" symbol="onStart"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc" id="15" lineNum="21" parent="globals/LoggerekApp" pc="268435704" symbol="getInitialView"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc" id="15" lineNum="22" parent="globals/LoggerekApp" pc="268435706" symbol="getInitialView"/>
         <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc" id="16" lineNum="7" parent="globals/LoggerekApp" pc="268435761" symbol="initialize"/>
         <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc" id="16" lineNum="8" parent="globals/LoggerekApp" pc="268435763" symbol="initialize"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc" id="16" lineNum="9" parent="globals/LoggerekApp" pc="268435775" symbol="initialize"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc" id="16" lineNum="10" parent="globals/LoggerekApp" pc="268435801" symbol="initialize"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc" id="17" lineNum="13" parent="globals/LoggerekApp" pc="268435820" symbol="phoneMessageCallback"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc" id="17" lineNum="14" parent="globals/LoggerekApp" pc="268435822" symbol="phoneMessageCallback"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc" id="18" lineNum="22" parent="globals/LoggerekApp" pc="268435842" symbol="onStop"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="19" lineNum="15" parent="globals/LoggerekDelegate" pc="268435845" symbol="onMenu"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="19" lineNum="16" parent="globals/LoggerekDelegate" pc="268435848" symbol="onMenu"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="19" lineNum="18" parent="globals/LoggerekDelegate" pc="268435888" symbol="onMenu"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="19" lineNum="26" parent="globals/LoggerekDelegate" pc="268435937" symbol="onMenu"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="19" lineNum="35" parent="globals/LoggerekDelegate" pc="268435986" symbol="onMenu"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="19" lineNum="36" parent="globals/LoggerekDelegate" pc="268436024" symbol="onMenu"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="20" lineNum="6" parent="globals/LoggerekDelegate" pc="268436026" symbol="initialize"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="20" lineNum="7" parent="globals/LoggerekDelegate" pc="268436028" symbol="initialize"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="21" lineNum="14" parent="globals/Rez/Layouts" pc="268436041" symbol="MainLayout"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="21" lineNum="15" parent="globals/Rez/Layouts" pc="268436052" symbol="MainLayout"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="21" lineNum="17" parent="globals/Rez/Layouts" pc="268436152" symbol="MainLayout"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="21" lineNum="18" parent="globals/Rez/Layouts" pc="268436236" symbol="MainLayout"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="21" lineNum="20" parent="globals/Rez/Layouts" pc="268436268" symbol="MainLayout"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="22" lineNum="25" parent="globals/Rez/Menus/MainMenu" pc="268436283" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="23" lineNum="26" parent="globals/Rez/Menus/MainMenu" pc="268436295" symbol="initialize"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="23" lineNum="27" parent="globals/Rez/Menus/MainMenu" pc="268436297" symbol="initialize"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="23" lineNum="28" parent="globals/Rez/Menus/MainMenu" pc="268436309" symbol="initialize"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="23" lineNum="29" parent="globals/Rez/Menus/MainMenu" pc="268436354" symbol="initialize"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc" id="17" lineNum="16" parent="globals/LoggerekApp" pc="268435776" symbol="onStop"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="18" lineNum="26" parent="globals/LoggerekDelegate/SendingHelloCallback" pc="268435779" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="19" lineNum="51" parent="globals/LoggerekDelegate" pc="268435791" symbol="onMenu"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="19" lineNum="52" parent="globals/LoggerekDelegate" pc="268435794" symbol="onMenu"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="19" lineNum="54" parent="globals/LoggerekDelegate" pc="268435834" symbol="onMenu"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="19" lineNum="62" parent="globals/LoggerekDelegate" pc="268435883" symbol="onMenu"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="19" lineNum="71" parent="globals/LoggerekDelegate" pc="268435932" symbol="onMenu"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="19" lineNum="72" parent="globals/LoggerekDelegate" pc="268435970" symbol="onMenu"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="20" lineNum="6" parent="globals/LoggerekDelegate" pc="268435972" symbol="initialize"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="20" lineNum="7" parent="globals/LoggerekDelegate" pc="268435974" symbol="initialize"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="20" lineNum="8" parent="globals/LoggerekDelegate" pc="268435986" symbol="initialize"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="20" lineNum="9" parent="globals/LoggerekDelegate" pc="268436012" symbol="initialize"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="21" lineNum="20" parent="globals/LoggerekDelegate" pc="268436031" symbol="sendRequestForData"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="21" lineNum="21" parent="globals/LoggerekDelegate" pc="268436034" symbol="sendRequestForData"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="21" lineNum="22" parent="globals/LoggerekDelegate" pc="268436058" symbol="sendRequestForData"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="21" lineNum="23" parent="globals/LoggerekDelegate" pc="268436071" symbol="sendRequestForData"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="22" lineNum="46" parent="globals/LoggerekDelegate" pc="268436109" symbol="phoneMessageCallback"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="22" lineNum="47" parent="globals/LoggerekDelegate" pc="268436111" symbol="phoneMessageCallback"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="23" lineNum="12" parent="globals/LoggerekDelegate" pc="268436131" symbol="onKey"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="23" lineNum="13" parent="globals/LoggerekDelegate" pc="268436133" symbol="onKey"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="23" lineNum="14" parent="globals/LoggerekDelegate" pc="268436146" symbol="onKey"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="23" lineNum="15" parent="globals/LoggerekDelegate" pc="268436164" symbol="onKey"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="23" lineNum="17" parent="globals/LoggerekDelegate" pc="268436174" symbol="onKey"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="24" lineNum="14" parent="globals/Rez/Layouts" pc="268436176" symbol="MainLayout"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="24" lineNum="15" parent="globals/Rez/Layouts" pc="268436187" symbol="MainLayout"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="24" lineNum="17" parent="globals/Rez/Layouts" pc="268436287" symbol="MainLayout"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="24" lineNum="18" parent="globals/Rez/Layouts" pc="268436371" symbol="MainLayout"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="24" lineNum="20" parent="globals/Rez/Layouts" pc="268436403" symbol="MainLayout"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="25" lineNum="25" parent="globals/Rez/Menus/MainMenu" pc="268436418" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="26" lineNum="32" parent="globals/LoggerekDelegate/SendingHelloCallback" pc="268436430" symbol="onError"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="26" lineNum="33" parent="globals/LoggerekDelegate/SendingHelloCallback" pc="268436432" symbol="onError"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="27" lineNum="36" parent="globals/LoggerekDelegate/SendingHelloCallback" pc="268436451" symbol="onComplete"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="27" lineNum="37" parent="globals/LoggerekDelegate/SendingHelloCallback" pc="268436453" symbol="onComplete"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="28" lineNum="27" parent="globals/LoggerekDelegate/SendingHelloCallback" pc="268436472" symbol="initialize"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="28" lineNum="28" parent="globals/LoggerekDelegate/SendingHelloCallback" pc="268436474" symbol="initialize"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="28" lineNum="29" parent="globals/LoggerekDelegate/SendingHelloCallback" pc="268436490" symbol="initialize"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="29" lineNum="26" parent="globals/Rez/Menus/MainMenu" pc="268436509" symbol="initialize"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="29" lineNum="27" parent="globals/Rez/Menus/MainMenu" pc="268436511" symbol="initialize"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="29" lineNum="28" parent="globals/Rez/Menus/MainMenu" pc="268436523" symbol="initialize"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="29" lineNum="29" parent="globals/Rez/Menus/MainMenu" pc="268436568" symbol="initialize"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
         <entry id="8389346" symbol="text"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="5" module="true" symbol="globals/Rez/Menus"/>
-        <entry id="16" method="true" symbol="MainLayout"/>
+        <entry id="18" method="true" symbol="MainLayout"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
         <entry id="7" object="true" symbol="LoggerekApp"/>
-        <entry field="true" id="18" symbol="AppName"/>
+        <entry field="true" id="20" symbol="AppName"/>
+        <entry id="15" method="true" symbol="sendRequestForData"/>
         <entry id="6" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8389080" method="true" symbol="onMenu"/>
         <entry id="8389345" symbol="rezId"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry field="true" id="21" symbol="prompt"/>
-        <entry field="true" id="15" symbol="id_monkey"/>
+        <entry field="true" id="23" symbol="prompt"/>
+        <entry field="true" id="17" symbol="id_monkey"/>
         <entry id="9" object="true" symbol="LoggerekMenuDelegate"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
-        <entry id="11" method="true" symbol="phoneMessageCallback"/>
+        <entry id="14" method="true" symbol="phoneMessageCallback"/>
         <entry id="8389348" symbol="font"/>
-        <entry id="23" symbol="item_2"/>
-        <entry id="22" symbol="item_1"/>
-        <entry id="13" module="true" symbol="Menus"/>
+        <entry id="25" symbol="item_2"/>
+        <entry id="24" symbol="item_1"/>
+        <entry id="12" module="true" symbol="Menus"/>
         <entry id="8389275" method="true" symbol="getApp"/>
         <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
@@ -84,14 +102,16 @@
         <entry id="8389349" symbol="justification"/>
         <entry id="10" object="true" symbol="LoggerekView"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-        <entry id="17" object="true" symbol="MainMenu"/>
+        <entry id="8388828" method="true" symbol="onError"/>
+        <entry id="19" object="true" symbol="MainMenu"/>
         <entry id="8" object="true" symbol="LoggerekDelegate"/>
         <entry id="8388644" module="true" symbol="System"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
         <entry id="8388640" module="true" symbol="Lang"/>
-        <entry field="true" id="14" symbol="LauncherIcon"/>
+        <entry field="true" id="16" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="13" object="true" symbol="SendingHelloCallback"/>
         <entry id="8389350" module="true" symbol="globals"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="8388702" method="true" symbol="initialize"/>
@@ -100,23 +120,27 @@
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry id="8389109" method="true" symbol="onMenuItem"/>
         <entry field="true" id="8389347" symbol="color"/>
-        <entry id="12" module="true" symbol="Layouts"/>
+        <entry id="8389097" method="true" symbol="onKey"/>
+        <entry id="8388829" method="true" symbol="onComplete"/>
+        <entry id="11" module="true" symbol="Layouts"/>
         <entry id="8389125" method="true" symbol="onHide"/>
         <entry id="8388635" module="true" symbol="Application"/>
         <entry field="true" id="8389642" symbol="title"/>
-        <entry field="true" id="20" symbol="menu_label_2"/>
-        <entry field="true" id="19" symbol="menu_label_1"/>
+        <entry field="true" id="22" symbol="menu_label_2"/>
+        <entry field="true" id="21" symbol="menu_label_1"/>
     </symbolTable>
     <localVars>
         <entry arg="true" endPc="268435615" name="item" stackId="1" startPc="268435549"/>
         <entry arg="true" endPc="268435666" name="dc" stackId="1" startPc="268435631"/>
         <entry arg="true" endPc="268435700" name="dc" stackId="1" startPc="268435682"/>
-        <entry arg="true" endPc="268435841" name="msg" stackId="1" startPc="268435820"/>
-        <entry endPc="268436025" name="menu" stackId="1" startPc="268435848"/>
-        <entry endPc="268436025" name="delegate" stackId="2" startPc="268435848"/>
-        <entry arg="true" endPc="268436282" name="dc" stackId="1" startPc="268436041"/>
-        <entry endPc="268436282" name="rez_cmp_local_text_1193959466" stackId="2" startPc="268436052"/>
-        <entry endPc="268436282" name="rez_cmp_local_bitmap_id_monkey" stackId="3" startPc="268436052"/>
+        <entry endPc="268435971" name="menu" stackId="1" startPc="268435794"/>
+        <entry endPc="268435971" name="delegate" stackId="2" startPc="268435794"/>
+        <entry endPc="268436107" name="message" stackId="1" startPc="268436034"/>
+        <entry arg="true" endPc="268436130" name="msg" stackId="1" startPc="268436109"/>
+        <entry arg="true" endPc="268436175" name="keyEvent" stackId="1" startPc="268436131"/>
+        <entry arg="true" endPc="268436417" name="dc" stackId="1" startPc="268436176"/>
+        <entry endPc="268436417" name="rez_cmp_local_text_1193959466" stackId="2" startPc="268436187"/>
+        <entry endPc="268436417" name="rez_cmp_local_bitmap_id_monkey" stackId="3" startPc="268436187"/>
     </localVars>
     <deviceInfo deviceVersion="4866e5192c0c99025597cd8e6e841f3d774b64f7" partNumber="006-B4376-00"/>
     <annotations>
@@ -132,13 +156,14 @@
         <dataEntry label="globals/LoggerekMenuDelegate" offset="152" parentId="globals" symbolId="LoggerekMenuDelegate" type="class"/>
         <dataEntry label="globals/LoggerekView" offset="205" parentId="globals" symbolId="LoggerekView" type="class"/>
         <dataEntry label="globals/LoggerekApp" offset="285" parentId="globals" symbolId="LoggerekApp" type="class"/>
-        <dataEntry label="globals/Rez" offset="365" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/LoggerekDelegate" offset="427" parentId="globals" symbolId="LoggerekDelegate" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="480" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="524" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="559" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="594" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Rez/Menus/MainMenu" offset="656" parentId="Menus" symbolId="MainMenu" type="class"/>
+        <dataEntry label="globals/Rez" offset="356" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/LoggerekDelegate" offset="418" parentId="globals" symbolId="LoggerekDelegate" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="507" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="551" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="586" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="621" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/LoggerekDelegate/SendingHelloCallback" offset="683" parentId="LoggerekDelegate" symbolId="SendingHelloCallback" type="class"/>
+        <dataEntry label="globals/Rez/Menus/MainMenu" offset="745" parentId="Menus" symbolId="MainMenu" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435471" name="&lt;init&gt;" parent="LoggerekMenuDelegate" startPc="268435460">
@@ -190,14 +215,10 @@
         <functionEntry accessMode="public" endPc="268435760" name="getInitialView" parent="LoggerekApp" startPc="268435704">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435819" name="initialize" parent="LoggerekApp" startPc="268435761">
+        <functionEntry accessMode="public" endPc="268435775" name="initialize" parent="LoggerekApp" startPc="268435761">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435841" name="phoneMessageCallback" parent="LoggerekApp" startPc="268435820">
-            <param id="msg"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435844" name="onStop" parent="LoggerekApp" startPc="268435842">
+        <functionEntry accessMode="public" endPc="268435778" name="onStop" parent="LoggerekApp" startPc="268435776">
             <param id="state"/>
             <documentation/>
         </functionEntry>
@@ -213,20 +234,43 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436025" name="onMenu" parent="LoggerekDelegate" startPc="268435845">
+        <functionEntry accessMode="public" endPc="268435790" name="&lt;init&gt;" parent="SendingHelloCallback" startPc="268435779">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436040" name="initialize" parent="LoggerekDelegate" startPc="268436026">
+        <functionEntry accessMode="public" endPc="268435971" name="onMenu" parent="LoggerekDelegate" startPc="268435791">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436282" name="MainLayout" parent="Layouts" startPc="268436041">
+        <functionEntry accessMode="public" endPc="268436030" name="initialize" parent="LoggerekDelegate" startPc="268435972">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436108" name="sendRequestForData" parent="LoggerekDelegate" startPc="268436031">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436130" name="phoneMessageCallback" parent="LoggerekDelegate" startPc="268436109">
+            <param id="msg"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436175" name="onKey" parent="LoggerekDelegate" startPc="268436131">
+            <param id="keyEvent"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436417" name="MainLayout" parent="Layouts" startPc="268436176">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436294" name="&lt;init&gt;" parent="MainMenu" startPc="268436283">
+        <functionEntry accessMode="public" endPc="268436429" name="&lt;init&gt;" parent="MainMenu" startPc="268436418">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436399" name="initialize" parent="MainMenu" startPc="268436295">
+        <functionEntry accessMode="public" endPc="268436450" name="onError" parent="SendingHelloCallback" startPc="268436430">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436471" name="onComplete" parent="SendingHelloCallback" startPc="268436451">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436508" name="initialize" parent="SendingHelloCallback" startPc="268436472">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436613" name="initialize" parent="MainMenu" startPc="268436509">
             <documentation/>
         </functionEntry>
     </functions>
