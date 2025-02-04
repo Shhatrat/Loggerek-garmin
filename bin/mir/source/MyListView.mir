@@ -1,0 +1,97 @@
+[ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/MyListView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [WatchUi,1,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/MyListView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Graphics,2,14,22]; ]
+import Toybox.Graphics;
+[ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/MyListView.mc"; @line = 4; @symbol_classdef = [MyListView,4,6,16]; @symbol_extends<0> = [WatchUi,4,25,32]; @symbol_extends<1> = [Menu2,4,33,38]; ]
+class MyListView extends WatchUi.Menu2 {
+    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/MyListView.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/MyListView.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/MyListView.mc"; @line = 6; @symbol_functiondef = [initialize,6,13,23]; ]
+    function initialize() as Void {
+_Users_szymon_garmin_Loggerek_Loggerek_source_MyListView_mc_6_26_8_4_start:
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/MyListView.mc" 7 8 ]
+        symbol [ Menu2 %tmp.2 7 8 13 ];
+        %tmp.2 = getv ? :Menu2;
+        symbol [ initialize %tmp.3 7 14 24 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_szymon_garmin_Loggerek_Loggerek_source_MyListView_mc_6_26_8_4_stop:
+    }
+    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/MyListView.mc"; @line = 10; @symbol_functiondef = [getItemCount,10,13,25]; @symbol_return<0> = [Number,10,31,37]; ]
+    function getItemCount() as Number {
+_Users_szymon_garmin_Loggerek_Loggerek_source_MyListView_mc_10_38_12_4_start:
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/MyListView.mc" 11 8 ]
+        %tmp.1 = 3;
+        ret %tmp.1;
+_Users_szymon_garmin_Loggerek_Loggerek_source_MyListView_mc_10_38_12_4_stop:
+    }
+    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/MyListView.mc"; @line = 14; @symbol_functiondef = [getItem,14,13,20]; @symbol_param<0> = [index,14,21,26]; @symbol_param<0>_type<0> = [Number,14,30,36]; @symbol_return<0> = [Menu2,14,41,46]; @symbol_return<1> = [Item,14,47,51]; ]
+    function getItem(index as Number) as Menu2.Item {
+_Users_szymon_garmin_Loggerek_Loggerek_source_MyListView_mc_14_52_21_4_start:
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/MyListView.mc" 15 8 ]
+        [ "_Users_szymon_garmin_Loggerek_Loggerek_source_MyListView_mc_14_52_21_4_start" "_Users_szymon_garmin_Loggerek_Loggerek_source_MyListView_mc_14_52_21_4_stop" ]
+        %items.1 = local;
+        symbol [ items %items.1 15 12 17 ];
+        %tmp.1 = newa 3;
+        symbol [ Menu2 %tmp.5 16 16 21 ];
+        %tmp.5 = getv ? :Menu2;
+        symbol [ Item %tmp.6 16 22 26 ];
+        %tmp.6 = getv function ? %tmp.5 :Item;
+        %tmp.7 = "Item 1";
+        %tmp.8 = "Subtitle 1";
+        %tmp.2 = newc %tmp.6 (%tmp.7, %tmp.8);
+        %tmp.9 = dup %tmp.1;
+        %tmp.10 = aputv %tmp.9 0 %tmp.2;
+        symbol [ Menu2 %tmp.14 17 16 21 ];
+        %tmp.14 = getv ? :Menu2;
+        symbol [ Item %tmp.15 17 22 26 ];
+        %tmp.15 = getv function ? %tmp.14 :Item;
+        %tmp.16 = "Item 2";
+        %tmp.17 = "Subtitle 2";
+        %tmp.11 = newc %tmp.15 (%tmp.16, %tmp.17);
+        %tmp.18 = dup %tmp.10;
+        %tmp.19 = aputv %tmp.18 1 %tmp.11;
+        symbol [ Menu2 %tmp.23 18 16 21 ];
+        %tmp.23 = getv ? :Menu2;
+        symbol [ Item %tmp.24 18 22 26 ];
+        %tmp.24 = getv function ? %tmp.23 :Item;
+        %tmp.25 = "Item 3";
+        %tmp.26 = "Subtitle 3";
+        %tmp.20 = newc %tmp.24 (%tmp.25, %tmp.26);
+        %tmp.27 = dup %tmp.19;
+        %tmp.28 = aputv %tmp.27 2 %tmp.20;
+        lputv %items.1 %tmp.28;
+        symbol [ items %items.1 15 12 17 ];
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/MyListView.mc" 20 8 ]
+        %tmp.29 = lgetv %items.1;
+        symbol [ items %tmp.29 20 15 20 ];
+        %tmp.30 = lgetv %index;
+        symbol [ index %tmp.30 20 21 26 ];
+        %tmp.31 = agetv %tmp.29 %tmp.30;
+        ret %tmp.31;
+_Users_szymon_garmin_Loggerek_Loggerek_source_MyListView_mc_14_52_21_4_stop:
+    }
+    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/MyListView.mc"; @line = 23; @symbol_functiondef = [onSelect,23,13,21]; @symbol_param<0> = [index,23,22,27]; @symbol_param<0>_type<0> = [Number,23,31,37]; ]
+    function onSelect(index as Number) as Void {
+_Users_szymon_garmin_Loggerek_Loggerek_source_MyListView_mc_23_47_25_4_start:
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/MyListView.mc" 24 8 ]
+        symbol [ System %tmp.2 24 8 14 ];
+        %tmp.2 = getv ? :System;
+        symbol [ println %tmp.3 24 15 22 ];
+        %tmp.3 = getv function %tmp.2 :println;
+        %tmp.4 = "Selected item: ";
+        %tmp.5 = lgetv %index;
+        symbol [ index %tmp.5 24 43 48 ];
+        %tmp.6 = add %tmp.4 %tmp.5;
+        invoke %tmp.2 %tmp.3(%tmp.6);
+_Users_szymon_garmin_Loggerek_Loggerek_source_MyListView_mc_23_47_25_4_stop:
+    }
+}
+[ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/MyListView.mc"; @line = 1; ]
+<init> {
+}

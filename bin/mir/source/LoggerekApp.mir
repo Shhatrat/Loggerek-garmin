@@ -1,0 +1,101 @@
+[ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Application,1,14,25]; ]
+import Toybox.Application;
+[ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
+import Toybox.Lang;
+[ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc"; @line = 5; @symbol_classdef = [LoggerekApp,5,6,17]; @symbol_extends<0> = [Application,5,26,37]; @symbol_extends<1> = [AppBase,5,38,45]; ]
+class LoggerekApp extends Application.AppBase {
+    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; ]
+    function initialize() as Void {
+_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekApp_mc_7_26_11_4_start:
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc" 8 8 ]
+        symbol [ AppBase %tmp.2 8 8 15 ];
+        %tmp.2 = getv ? :AppBase;
+        symbol [ initialize %tmp.3 8 16 26 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc" 9 8 ]
+        symbol [ Communications %tmp.5 9 8 22 ];
+        %tmp.5 = getv ? :Communications;
+        symbol [ registerForPhoneAppMessages %tmp.6 9 23 50 ];
+        %tmp.6 = getv function %tmp.5 :registerForPhoneAppMessages;
+        %tmp.7 = self;
+        symbol [ method %tmp.8 9 51 57 ];
+        %tmp.8 = getv function %tmp.7 :method;
+        %tmp.10 = const :phoneMessageCallback;
+        %tmp.11 = invoke %tmp.7 %tmp.8(%tmp.10);
+        invoke %tmp.5 %tmp.6(%tmp.11);
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc" 10 8 ]
+        symbol [ System %tmp.13 10 8 14 ];
+        %tmp.13 = getv ? :System;
+        symbol [ print %tmp.14 10 15 20 ];
+        %tmp.14 = getv function %tmp.13 :print;
+        %tmp.15 = "DUPA";
+        invoke %tmp.13 %tmp.14(%tmp.15);
+_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekApp_mc_7_26_11_4_stop:
+    }
+    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc"; @line = 13; @symbol_functiondef = [phoneMessageCallback,13,12,32]; @symbol_param<0> = [msg,13,33,36]; @symbol_param<0>_type<0> = [Toybox,13,40,46]; @symbol_param<0>_type<1> = [Communications,13,47,61]; @symbol_param<0>_type<2> = [PhoneAppMessage,13,62,77]; ]
+    function phoneMessageCallback(msg as Toybox.Communications.PhoneAppMessage) as Void {
+_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekApp_mc_13_87_15_4_start:
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc" 14 6 ]
+        symbol [ System %tmp.2 14 6 12 ];
+        %tmp.2 = getv ? :System;
+        symbol [ println %tmp.3 14 13 20 ];
+        %tmp.3 = getv function %tmp.2 :println;
+        %tmp.4 = lgetv %msg;
+        symbol [ msg %tmp.4 14 21 24 ];
+        symbol [ data %tmp.5 14 25 29 ];
+        %tmp.5 = getv %tmp.4 :data;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekApp_mc_13_87_15_4_stop:
+    }
+    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc"; @line = 18; @symbol_functiondef = [onStart,18,13,20]; @symbol_param<0> = [state,18,21,26]; @symbol_param<0>_type<0> = [Dictionary,18,30,40]; ]
+    function onStart(state as Dictionary or Null) as Void {
+    }
+    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc"; @line = 22; @symbol_functiondef = [onStop,22,13,19]; @symbol_param<0> = [state,22,20,25]; @symbol_param<0>_type<0> = [Dictionary,22,29,39]; ]
+    function onStop(state as Dictionary or Null) as Void {
+    }
+    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc"; @line = 27; @symbol_functiondef = [getInitialView,27,13,27]; @symbol_return<0> = [Views,27,34,39]; @symbol_return<1> = [Views,27,45,50]; @symbol_return<2> = [InputDelegates,27,52,66]; ]
+    function getInitialView() as [Views] or [Views, InputDelegates] {
+_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekApp_mc_27_68_29_4_start:
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc" 28 8 ]
+        %tmp.1 = newa 2;
+        symbol [ LoggerekView %tmp.5 28 21 33 ];
+        %tmp.5 = getv ? :LoggerekView;
+        %tmp.2 = newc %tmp.5 ();
+        %tmp.6 = dup %tmp.1;
+        %tmp.7 = aputv %tmp.6 0 %tmp.2;
+        symbol [ LoggerekDelegate %tmp.11 28 41 57 ];
+        %tmp.11 = getv ? :LoggerekDelegate;
+        %tmp.8 = newc %tmp.11 ();
+        %tmp.12 = dup %tmp.7;
+        %tmp.13 = aputv %tmp.12 1 %tmp.8;
+        ret %tmp.13;
+_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekApp_mc_27_68_29_4_stop:
+    }
+}
+[ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc"; @line = 33; @symbol_functiondef = [getApp,33,9,15]; @symbol_return<0> = [LoggerekApp,33,21,32]; ]
+function getApp() as LoggerekApp {
+_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekApp_mc_33_33_35_0_start:
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc" 34 4 ]
+    symbol [ Application %tmp.1 34 11 22 ];
+    %tmp.1 = getm $.Toybox.Application;
+    symbol [ getApp %tmp.2 34 23 29 ];
+    %tmp.2 = getv function %tmp.1 :getApp;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    %tmp.4 = as %tmp.3 LoggerekApp;
+    symbol [ LoggerekApp %tmp.4 34 35 46 ];
+    ret %tmp.4;
+_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekApp_mc_33_33_35_0_stop:
+}
+[ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekApp.mc"; @line = 1; ]
+<init> {
+}
