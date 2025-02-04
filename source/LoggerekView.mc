@@ -23,7 +23,7 @@ class LoggerekView extends WatchUi.View {
         requestUpdate();
     }
 
-    var message = "Brak danych\nwcisnij aby pobrac";
+    var message = "Wcisnij start\naby pobrac";
 
     // Update the view
     function onUpdate(dc as Dc) as Void {
@@ -34,12 +34,8 @@ class LoggerekView extends WatchUi.View {
         var textWidth = dc.getTextWidthInPixels(message, Graphics.FONT_LARGE);
         var y = (screenHeight - textHeight) / 2;
         dc.drawText(140, y, Graphics.FONT_LARGE, message, Graphics.TEXT_JUSTIFY_CENTER);
-
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        if(message !="xdxd"){
-        dc.drawCircle(260, 80, 20);
-        }
- 
+        dc.drawCircle(260, 80, 20); 
     }
 
     // Called when this View is removed from the screen. Save the

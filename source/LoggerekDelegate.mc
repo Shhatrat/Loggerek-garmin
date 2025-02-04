@@ -41,7 +41,7 @@ class SendingHelloCallback extends Toybox.Communications.ConnectionListener{
 
     function onComplete(){ 
         System.print("complete -->");
-        self.view.update("xdxd");
+        // self.view.update("xdxd");
     }
 }
 
@@ -60,11 +60,11 @@ class SendingHelloCallback extends Toybox.Communications.ConnectionListener{
             new MenuItem(
                 array[i]["title"],
                 array[i]["cacheId"],
-                array[i]["title"],
+                array[i]["cacheId"],
                 {}
             )
         );
         }
-        WatchUi.pushView(menu, new LoggerekMenuDelegate(), WatchUi.SLIDE_IMMEDIATE);
+        WatchUi.pushView(menu, new CacheMenuDelegate(msg.data["logs"]), WatchUi.SLIDE_IMMEDIATE);
     }
 }
