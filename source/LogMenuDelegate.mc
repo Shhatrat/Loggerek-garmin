@@ -11,15 +11,21 @@ class LogMenuDelegate extends WatchUi.Menu2InputDelegate {
     }
 
     function onSelect(item) {
-        // System.println(item.getId());
+        Communications.transmit({ "type" => "SET_LOG","cacheId" => cacheId, "logId" => item.getId() }
+        , null, new SendingLogCallback());
+    }
 
-        var message = new Toybox.Communications.PhoneAppMessage();
-        message.data = { "cacheId" => cacheId, "logId" => item.getId() };
-        System.println("---->");
-        System.println(message.data["cacheId"]);
-        System.println("<----");
-        System.println(message.data["logId"]);
-        // Communications.transmit(message, null, new SendingHelloCallback(self.view));
-        WatchUi.popView(WatchUi.SLIDE_UP);
+    class SendingLogCallback extends Toybox.Communications.ConnectionListener{
+
+        function initialize() {
+            Toybox.Communications.ConnectionListener.initialize();
+        }
+
+        function onError(){
+        }
+
+        function onComplete(){ 
+            WatchUi.popView(WatchUi.SLIDE_UP);    
+        }
     }
 }

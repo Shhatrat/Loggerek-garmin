@@ -78,157 +78,142 @@ _Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_14_29_20_4_sto
     }
     [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc"; @line = 22; @symbol_functiondef = [sendRequestForData,22,13,31]; ]
     function sendRequestForData() {
-_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_22_33_26_4_start:
+_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_22_33_24_4_start:
 [ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" 23 8 ]
-        [ "_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_22_33_26_4_start" "_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_22_33_26_4_stop" ]
-        %message.1 = local;
-        symbol [ message %message.1 23 12 19 ];
-        symbol [ Toybox %tmp.4 23 26 32 ];
-        %tmp.4 = getv ? :Toybox;
-        symbol [ Communications %tmp.5 23 33 47 ];
-        %tmp.5 = getv %tmp.4 :Communications;
-        symbol [ PhoneAppMessage %tmp.6 23 48 63 ];
-        %tmp.6 = getv %tmp.5 :PhoneAppMessage;
-        %tmp.1 = newc %tmp.6 ();
-        lputv %message.1 %tmp.1;
-        symbol [ message %message.1 23 12 19 ];
-[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" 24 8 ]
-        %tmp.7 = lgetv %message.1;
-        symbol [ message %tmp.7 24 8 15 ];
-        %tmp.8 = "Hello from the watch!";
-        symbol [ data ? 24 16 20 ];
-        putv %tmp.7 :data %tmp.8;
-[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" 25 8 ]
-        symbol [ Communications %tmp.10 25 8 22 ];
-        %tmp.10 = getv ? :Communications;
-        symbol [ transmit %tmp.11 25 23 31 ];
-        %tmp.11 = getv function %tmp.10 :transmit;
-        %tmp.12 = "message";
-        %tmp.13 = null;
-        symbol [ SendingHelloCallback %tmp.17 25 53 73 ];
-        %tmp.17 = getv ? :SendingHelloCallback;
-        %tmp.18 = self;
-        symbol [ self %tmp.18 25 74 78 ];
-        symbol [ view %tmp.19 25 79 83 ];
-        %tmp.19 = getv %tmp.18 :view;
-        %tmp.14 = newc %tmp.17 (%tmp.19);
-        invoke %tmp.10 %tmp.11(%tmp.12, %tmp.13, %tmp.14);
-_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_22_33_26_4_stop:
+        symbol [ Communications %tmp.2 23 8 22 ];
+        %tmp.2 = getv ? :Communications;
+        symbol [ transmit %tmp.3 23 23 31 ];
+        %tmp.3 = getv function %tmp.2 :transmit;
+        %tmp.4 = newd 1;
+        %tmp.5 = "type";
+        %tmp.6 = "GET_DATA";
+        %tmp.7 = dup %tmp.4;
+        %tmp.8 = aputv %tmp.7 %tmp.5 %tmp.6;
+        %tmp.9 = null;
+        symbol [ SendingHelloCallback %tmp.13 23 66 86 ];
+        %tmp.13 = getv ? :SendingHelloCallback;
+        %tmp.14 = self;
+        symbol [ self %tmp.14 23 87 91 ];
+        symbol [ view %tmp.15 23 92 96 ];
+        %tmp.15 = getv %tmp.14 :view;
+        %tmp.10 = newc %tmp.13 (%tmp.15);
+        invoke %tmp.2 %tmp.3(%tmp.8, %tmp.9, %tmp.10);
+_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_22_33_24_4_stop:
     }
-    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc"; @line = 28; @symbol_classdef = [SendingHelloCallback,28,6,26]; @symbol_extends<0> = [Toybox,28,35,41]; @symbol_extends<1> = [Communications,28,42,56]; @symbol_extends<2> = [ConnectionListener,28,57,75]; ]
+    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc"; @line = 26; @symbol_classdef = [SendingHelloCallback,26,6,26]; @symbol_extends<0> = [Toybox,26,35,41]; @symbol_extends<1> = [Communications,26,42,56]; @symbol_extends<2> = [ConnectionListener,26,57,75]; ]
     class SendingHelloCallback extends Toybox.Communications.ConnectionListener {
-        [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc"; @line = 28; ]
+        [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc"; @line = 26; ]
         <init> {
         }
-        [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc"; @line = 28; ]
+        [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc"; @line = 26; ]
         static
         <init> {
         }
-        [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc"; @line = 30; @position = 8; @symbol_vardef = [view,30,8,12]; ]
+        [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc"; @line = 28; @position = 8; @symbol_vardef = [view,28,8,12]; ]
         var view;
-        [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc"; @line = 32; @symbol_functiondef = [initialize,32,13,23]; @symbol_param<0> = [view,32,24,28]; ]
+        [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc"; @line = 30; @symbol_functiondef = [initialize,30,13,23]; @symbol_param<0> = [view,30,24,28]; ]
         function initialize(view) as Void {
-_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_32_30_36_2_start:
-[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" 33 8 ]
-            symbol [ Toybox %tmp.2 33 8 14 ];
+_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_30_30_34_2_start:
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" 31 8 ]
+            symbol [ Toybox %tmp.2 31 8 14 ];
             %tmp.2 = getv ? :Toybox;
-            symbol [ Communications %tmp.3 33 15 29 ];
+            symbol [ Communications %tmp.3 31 15 29 ];
             %tmp.3 = getv %tmp.2 :Communications;
-            symbol [ ConnectionListener %tmp.4 33 30 48 ];
+            symbol [ ConnectionListener %tmp.4 31 30 48 ];
             %tmp.4 = getv %tmp.3 :ConnectionListener;
-            symbol [ initialize %tmp.5 33 49 59 ];
+            symbol [ initialize %tmp.5 31 49 59 ];
             %tmp.5 = getv function %tmp.4 :initialize;
             invoke %tmp.4 %tmp.5();
-[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" 34 8 ]
-            symbol [ self %self 34 8 12 ];
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" 32 8 ]
+            symbol [ self %self 32 8 12 ];
             %tmp.6 = lgetv %view;
-            symbol [ view %tmp.6 34 20 24 ];
-            symbol [ view ? 34 13 17 ];
+            symbol [ view %tmp.6 32 20 24 ];
+            symbol [ view ? 32 13 17 ];
             putv self :view %tmp.6;
-[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" 35 8 ]
-            symbol [ System %tmp.8 35 8 14 ];
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" 33 8 ]
+            symbol [ System %tmp.8 33 8 14 ];
             %tmp.8 = getv ? :System;
-            symbol [ print %tmp.9 35 15 20 ];
+            symbol [ print %tmp.9 33 15 20 ];
             %tmp.9 = getv function %tmp.8 :print;
             %tmp.10 = "initialize -->";
             invoke %tmp.8 %tmp.9(%tmp.10);
-_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_32_30_36_2_stop:
+_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_30_30_34_2_stop:
         }
-        [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc"; @line = 38; @symbol_functiondef = [onError,38,13,20]; ]
+        [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc"; @line = 36; @symbol_functiondef = [onError,36,13,20]; ]
         function onError() {
-_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_38_22_40_4_start:
-[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" 39 8 ]
-            symbol [ System %tmp.2 39 8 14 ];
+_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_36_22_38_4_start:
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" 37 8 ]
+            symbol [ System %tmp.2 37 8 14 ];
             %tmp.2 = getv ? :System;
-            symbol [ print %tmp.3 39 15 20 ];
+            symbol [ print %tmp.3 37 15 20 ];
             %tmp.3 = getv function %tmp.2 :print;
             %tmp.4 = "error -->";
             invoke %tmp.2 %tmp.3(%tmp.4);
-_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_38_22_40_4_stop:
+_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_36_22_38_4_stop:
         }
-        [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc"; @line = 42; @symbol_functiondef = [onComplete,42,13,23]; ]
+        [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc"; @line = 40; @symbol_functiondef = [onComplete,40,13,23]; ]
         function onComplete() {
-_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_42_25_45_4_start:
-[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" 43 8 ]
-            symbol [ System %tmp.2 43 8 14 ];
+_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_40_25_43_4_start:
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" 41 8 ]
+            symbol [ System %tmp.2 41 8 14 ];
             %tmp.2 = getv ? :System;
-            symbol [ print %tmp.3 43 15 20 ];
+            symbol [ print %tmp.3 41 15 20 ];
             %tmp.3 = getv function %tmp.2 :print;
             %tmp.4 = "complete -->";
             invoke %tmp.2 %tmp.3(%tmp.4);
-_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_42_25_45_4_stop:
+_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_40_25_43_4_stop:
         }
     }
-    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc"; @line = 48; @symbol_functiondef = [onMenu,48,13,19]; @symbol_return<0> = [Boolean,48,25,32]; ]
+    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc"; @line = 46; @symbol_functiondef = [onMenu,46,13,19]; @symbol_return<0> = [Boolean,46,25,32]; ]
     function onMenu() as Boolean {
-_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_48_33_51_4_start:
-[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" 49 8 ]
-        symbol [ WatchUi %tmp.1 49 8 15 ];
+_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_46_33_49_4_start:
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" 47 8 ]
+        symbol [ WatchUi %tmp.1 47 8 15 ];
         %tmp.1 = getm $.Toybox.WatchUi;
-        symbol [ pushView %tmp.2 49 16 24 ];
+        symbol [ pushView %tmp.2 47 16 24 ];
         %tmp.2 = getv function %tmp.1 :pushView;
-        symbol [ Rez %tmp.6 49 29 32 ];
+        symbol [ Rez %tmp.6 47 29 32 ];
         %tmp.6 = getv ? :Rez;
-        symbol [ Menus %tmp.7 49 33 38 ];
+        symbol [ Menus %tmp.7 47 33 38 ];
         %tmp.7 = getv %tmp.6 :Menus;
-        symbol [ MainMenu %tmp.8 49 39 47 ];
+        symbol [ MainMenu %tmp.8 47 39 47 ];
         %tmp.8 = getv function ? %tmp.7 :MainMenu;
         %tmp.3 = newc %tmp.8 ();
-        symbol [ LoggerekMenuDelegate %tmp.12 49 55 75 ];
+        symbol [ LoggerekMenuDelegate %tmp.12 47 55 75 ];
         %tmp.12 = getv ? :LoggerekMenuDelegate;
         %tmp.9 = newc %tmp.12 ();
-        symbol [ WatchUi %tmp.13 49 79 86 ];
+        symbol [ WatchUi %tmp.13 47 79 86 ];
         %tmp.13 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_UP %tmp.14 49 87 95 ];
+        symbol [ SLIDE_UP %tmp.14 47 87 95 ];
         %tmp.14 = getv %tmp.13 :SLIDE_UP;
         invoke %tmp.1 %tmp.2(%tmp.3, %tmp.9, %tmp.14);
-[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" 50 8 ]
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" 48 8 ]
         %tmp.15 = true;
         ret %tmp.15;
-_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_48_33_51_4_stop:
+_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_46_33_49_4_stop:
     }
-    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc"; @line = 53; @symbol_functiondef = [phoneMessageCallback,53,16,36]; @symbol_param<0> = [msg,53,37,40]; @symbol_param<0>_type<0> = [Toybox,53,44,50]; @symbol_param<0>_type<1> = [Communications,53,51,65]; @symbol_param<0>_type<2> = [PhoneAppMessage,53,66,81]; ]
+    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc"; @line = 51; @symbol_functiondef = [phoneMessageCallback,51,13,33]; @symbol_param<0> = [msg,51,34,37]; @symbol_param<0>_type<0> = [Toybox,51,41,47]; @symbol_param<0>_type<1> = [Communications,51,48,62]; @symbol_param<0>_type<2> = [PhoneAppMessage,51,63,78]; ]
     function phoneMessageCallback(msg as Toybox.Communications.PhoneAppMessage) as Void {
-_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_53_91_69_4_start:
-[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" 54 8 ]
-        [ "_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_53_91_69_4_start" "_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_53_91_69_4_stop" ]
+_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_51_88_67_4_start:
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" 52 8 ]
+        [ "_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_51_88_67_4_start" "_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_51_88_67_4_stop" ]
         %array.1 = local;
-        symbol [ array %array.1 54 12 17 ];
+        symbol [ array %array.1 52 12 17 ];
         %tmp.1 = lgetv %msg;
-        symbol [ msg %tmp.1 54 20 23 ];
-        symbol [ data %tmp.2 54 24 28 ];
+        symbol [ msg %tmp.1 52 20 23 ];
+        symbol [ data %tmp.2 52 24 28 ];
         %tmp.2 = getv %tmp.1 :data;
         %tmp.3 = "items";
         %tmp.4 = agetv %tmp.2 %tmp.3;
         lputv %array.1 %tmp.4;
-        symbol [ array %array.1 54 12 17 ];
-[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" 56 8 ]
-        [ "_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_53_91_69_4_start" "_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_53_91_69_4_stop" ]
+        symbol [ array %array.1 52 12 17 ];
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" 54 8 ]
+        [ "_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_51_88_67_4_start" "_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_51_88_67_4_stop" ]
         %menu.2 = local;
-        symbol [ menu %menu.2 56 12 16 ];
-        symbol [ WatchUi %tmp.7 56 23 30 ];
+        symbol [ menu %menu.2 54 12 16 ];
+        symbol [ WatchUi %tmp.7 54 23 30 ];
         %tmp.7 = getm $.Toybox.WatchUi;
-        symbol [ Menu2 %tmp.8 56 31 36 ];
+        symbol [ Menu2 %tmp.8 54 31 36 ];
         %tmp.8 = getv function ? %tmp.7 :Menu2;
         %tmp.9 = newd 1;
         %tmp.11 = const :title;
@@ -237,91 +222,91 @@ _Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_53_91_69_4_sta
         %tmp.14 = aputv %tmp.13 %tmp.11 %tmp.12;
         %tmp.5 = newc %tmp.8 (%tmp.14);
         lputv %menu.2 %tmp.5;
-        symbol [ menu %menu.2 56 12 16 ];
-[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" 58 8 ]
-        for @_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_58_8_67_8_for_test @_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_58_8_67_8_for_incr @_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_58_8_67_8_for_end;
-_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_58_8_67_8_for_init:
-        [ "_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_58_8_67_8_for_begin" "_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_58_8_67_8_for_end" ]
+        symbol [ menu %menu.2 54 12 16 ];
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" 56 8 ]
+        for @_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_56_8_65_8_for_test @_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_56_8_65_8_for_incr @_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_56_8_65_8_for_end;
+_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_56_8_65_8_for_init:
+        [ "_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_56_8_65_8_for_begin" "_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_56_8_65_8_for_end" ]
         %i.3 = local;
-        symbol [ i %i.3 58 17 18 ];
+        symbol [ i %i.3 56 17 18 ];
         %tmp.15 = 0;
         lputv %i.3 %tmp.15;
-        symbol [ i %i.3 58 17 18 ];
-_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_58_8_67_8_for_test:
+        symbol [ i %i.3 56 17 18 ];
+_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_56_8_65_8_for_test:
         %tmp.16 = lgetv %i.3;
-        symbol [ i %tmp.16 58 24 25 ];
+        symbol [ i %tmp.16 56 24 25 ];
         %tmp.17 = lgetv %array.1;
-        symbol [ array %tmp.17 58 28 33 ];
-        symbol [ size %tmp.18 58 34 38 ];
+        symbol [ array %tmp.17 56 28 33 ];
+        symbol [ size %tmp.18 56 34 38 ];
         %tmp.18 = getv function %tmp.17 :size;
         %tmp.19 = invoke %tmp.17 %tmp.18();
         %tmp.20 = lt %tmp.16 %tmp.19;
-        bf %tmp.20 @_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_58_8_67_8_for_end;
-_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_58_8_67_8_for_begin:
-_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_58_46_67_8_start:
-[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" 59 12 ]
+        bf %tmp.20 @_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_56_8_65_8_for_end;
+_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_56_8_65_8_for_begin:
+_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_56_46_65_8_start:
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" 57 12 ]
         %tmp.21 = lgetv %menu.2;
-        symbol [ menu %tmp.21 59 12 16 ];
-        symbol [ addItem %tmp.22 59 17 24 ];
+        symbol [ menu %tmp.21 57 12 16 ];
+        symbol [ addItem %tmp.22 57 17 24 ];
         %tmp.22 = getv function %tmp.21 :addItem;
-        symbol [ MenuItem %tmp.26 60 16 24 ];
+        symbol [ MenuItem %tmp.26 58 16 24 ];
         %tmp.26 = getv ? :MenuItem;
         %tmp.27 = lgetv %array.1;
-        symbol [ array %tmp.27 61 16 21 ];
+        symbol [ array %tmp.27 59 16 21 ];
         %tmp.28 = lgetv %i.3;
-        symbol [ i %tmp.28 61 22 23 ];
+        symbol [ i %tmp.28 59 22 23 ];
         %tmp.29 = agetv %tmp.27 %tmp.28;
         %tmp.30 = "title";
         %tmp.31 = agetv %tmp.29 %tmp.30;
         %tmp.32 = lgetv %array.1;
-        symbol [ array %tmp.32 62 16 21 ];
+        symbol [ array %tmp.32 60 16 21 ];
         %tmp.33 = lgetv %i.3;
-        symbol [ i %tmp.33 62 22 23 ];
+        symbol [ i %tmp.33 60 22 23 ];
         %tmp.34 = agetv %tmp.32 %tmp.33;
         %tmp.35 = "cacheId";
         %tmp.36 = agetv %tmp.34 %tmp.35;
         %tmp.37 = lgetv %array.1;
-        symbol [ array %tmp.37 63 16 21 ];
+        symbol [ array %tmp.37 61 16 21 ];
         %tmp.38 = lgetv %i.3;
-        symbol [ i %tmp.38 63 22 23 ];
+        symbol [ i %tmp.38 61 22 23 ];
         %tmp.39 = agetv %tmp.37 %tmp.38;
         %tmp.40 = "cacheId";
         %tmp.41 = agetv %tmp.39 %tmp.40;
         %tmp.42 = newd 0;
         %tmp.23 = newc %tmp.26 (%tmp.31, %tmp.36, %tmp.41, %tmp.42);
         invoke %tmp.21 %tmp.22(%tmp.23);
-_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_58_46_67_8_stop:
-_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_58_8_67_8_for_incr:
-[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" 58 ]
+_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_56_46_65_8_stop:
+_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_56_8_65_8_for_incr:
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" 56 ]
         %tmp.45 = lgetv %i.3;
-        symbol [ i %tmp.45 58 42 43 ];
+        symbol [ i %tmp.45 56 42 43 ];
         %tmp.46 = add %tmp.45 1;
         lputv %i.3 %tmp.46;
-        symbol [ i %i.3 58 42 43 ];
-        goto @_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_58_8_67_8_for_test;
-_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_58_8_67_8_for_end:
-[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" 68 8 ]
-        symbol [ WatchUi %tmp.47 68 8 15 ];
+        symbol [ i %i.3 56 42 43 ];
+        goto @_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_56_8_65_8_for_test;
+_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_56_8_65_8_for_end:
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" 66 8 ]
+        symbol [ WatchUi %tmp.47 66 8 15 ];
         %tmp.47 = getm $.Toybox.WatchUi;
-        symbol [ pushView %tmp.48 68 16 24 ];
+        symbol [ pushView %tmp.48 66 16 24 ];
         %tmp.48 = getv function %tmp.47 :pushView;
         %tmp.49 = lgetv %menu.2;
-        symbol [ menu %tmp.49 68 25 29 ];
-        symbol [ CacheMenuDelegate %tmp.53 68 35 52 ];
+        symbol [ menu %tmp.49 66 25 29 ];
+        symbol [ CacheMenuDelegate %tmp.53 66 35 52 ];
         %tmp.53 = getv ? :CacheMenuDelegate;
         %tmp.54 = lgetv %msg;
-        symbol [ msg %tmp.54 68 53 56 ];
-        symbol [ data %tmp.55 68 57 61 ];
+        symbol [ msg %tmp.54 66 53 56 ];
+        symbol [ data %tmp.55 66 57 61 ];
         %tmp.55 = getv %tmp.54 :data;
         %tmp.56 = "logs";
         %tmp.57 = agetv %tmp.55 %tmp.56;
         %tmp.50 = newc %tmp.53 (%tmp.57);
-        symbol [ WatchUi %tmp.58 68 72 79 ];
+        symbol [ WatchUi %tmp.58 66 72 79 ];
         %tmp.58 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_IMMEDIATE %tmp.59 68 80 95 ];
+        symbol [ SLIDE_IMMEDIATE %tmp.59 66 80 95 ];
         %tmp.59 = getv %tmp.58 :SLIDE_IMMEDIATE;
         invoke %tmp.47 %tmp.48(%tmp.49, %tmp.50, %tmp.59);
-_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_53_91_69_4_stop:
+_Users_szymon_garmin_Loggerek_Loggerek_source_LoggerekDelegate_mc_51_88_67_4_stop:
     }
 }
 [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc"; @line = 1; ]

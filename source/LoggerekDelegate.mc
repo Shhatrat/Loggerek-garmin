@@ -20,9 +20,7 @@ class LoggerekDelegate extends WatchUi.BehaviorDelegate {
     }
 
     function sendRequestForData(){
-        var message = new Toybox.Communications.PhoneAppMessage();
-        message.data = "Hello from the watch!";
-        Communications.transmit("message", null, new SendingHelloCallback(self.view));
+        Communications.transmit({"type" => "GET_DATA"}, null, new SendingHelloCallback(self.view));
     }
 
 class SendingHelloCallback extends Toybox.Communications.ConnectionListener{
@@ -50,7 +48,7 @@ class SendingHelloCallback extends Toybox.Communications.ConnectionListener{
         return true;
     }
 
-       function phoneMessageCallback(msg as Toybox.Communications.PhoneAppMessage) as Void {
+    function phoneMessageCallback(msg as Toybox.Communications.PhoneAppMessage) as Void {
         var array = msg.data["items"];
 
         var menu = new WatchUi.Menu2({:title=>"Caches"});
