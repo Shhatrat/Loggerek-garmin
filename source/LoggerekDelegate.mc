@@ -15,7 +15,6 @@ class LoggerekDelegate extends WatchUi.BehaviorDelegate {
         if(keyEvent.getKey() == 4){
             System.println("Key 4 pressed");
             sendRequestForData();
-                    view.update("dxxd");
         }
         return true;
     }
@@ -23,59 +22,49 @@ class LoggerekDelegate extends WatchUi.BehaviorDelegate {
     function sendRequestForData(){
         var message = new Toybox.Communications.PhoneAppMessage();
         message.data = "Hello from the watch!";
-        Communications.transmit("message", null, new SendingHelloCallback());
+        Communications.transmit("message", null, new SendingHelloCallback(self.view));
     }
 
-    class SendingHelloCallback extends Toybox.Communications.ConnectionListener{
-	    	function initialize(){
-				Toybox.Communications.ConnectionListener.initialize();
-                System.print("initialize -->");
- 			}
+class SendingHelloCallback extends Toybox.Communications.ConnectionListener{
 
-    		function onError(){
-                System.print("error -->");
-	    	}
+    var view;
 
-    		function onComplete(){ 
-                System.print("complete -->");
-    		}
-   		}
+    function initialize(view) {
+        Toybox.Communications.ConnectionListener.initialize();
+        self.view = view;
+        System.print("initialize -->");
+ 	}
 
-    // function onMenu() as Boolean {
-        // WatchUi.pushView(new Rez.Menus.MainMenu(), new LoggerekMenuDelegate(), WatchUi.SLIDE_UP);
-        // return true;
-    // }
-
-       function phoneMessageCallback(msg as Toybox.Communications.PhoneAppMessage) as Void {
-      System.println(msg.data);
-      System.println(msg.data["items"][0]["title"]);
-//      System.println(msg["items"]);
-    //   System.println(msg.data["items"]);
+    function onError(){
+        System.print("error -->");
     }
 
+    function onComplete(){ 
+        System.print("complete -->");
+        self.view.update("xdxd");
+    }
+}
 
     function onMenu() as Boolean {
-        var menu = new WatchUi.Menu2({:title=>"Caches"});
-        var delegate;
-        menu.addItem(
-            new MenuItem(
-                "Item 1 Label",
-                "Item 1 subLabel",
-                "itemOneId",
-                {}
-            )
-        );
-        menu.addItem(
-            new MenuItem(
-                "Item 2 Label",
-                "Item 2 subLabel",
-                "itemTwoId",
-                {}
-            )
-        );
-//        delegate = new MyMenu2Delegate(); // a WatchUi.Menu2InputDelegate
-        WatchUi.pushView(menu, new LoggerekMenuDelegate(), WatchUi.SLIDE_IMMEDIATE);
-        return true;    
-        }
+        WatchUi.pushView(new Rez.Menus.MainMenu(), new LoggerekMenuDelegate(), WatchUi.SLIDE_UP);
+        return true;
+    }
 
+       function phoneMessageCallback(msg as Toybox.Communications.PhoneAppMessage) as Void {
+        var array = msg.data["items"];
+
+        var menu = new WatchUi.Menu2({:title=>"Caches"});
+
+        for( var i = 0; i < array.size(); i++){
+            menu.addItem(
+            new MenuItem(
+                array[i]["title"],
+                array[i]["cacheId"],
+                array[i]["title"],
+                {}
+            )
+        );
+        }
+        WatchUi.pushView(menu, new LoggerekMenuDelegate(), WatchUi.SLIDE_IMMEDIATE);
+    }
 }

@@ -23,14 +23,23 @@ class LoggerekView extends WatchUi.View {
         requestUpdate();
     }
 
-    var message = "entry";
+    var message = "Brak danych\nwcisnij aby pobrac";
 
     // Update the view
     function onUpdate(dc as Dc) as Void {
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
-        dc.drawText(100, 50, Graphics.FONT_LARGE, message, Graphics.TEXT_JUSTIFY_CENTER);
+        var screenHeight = dc.getHeight();
+        var textHeight = dc.getFontHeight(Graphics.FONT_LARGE);
+        var textWidth = dc.getTextWidthInPixels(message, Graphics.FONT_LARGE);
+        var y = (screenHeight - textHeight) / 2;
+        dc.drawText(140, y, Graphics.FONT_LARGE, message, Graphics.TEXT_JUSTIFY_CENTER);
 
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        if(message !="xdxd"){
+        dc.drawCircle(260, 80, 20);
+        }
+ 
     }
 
     // Called when this View is removed from the screen. Save the
