@@ -50,55 +50,53 @@
         <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/CacheMenuDelegate.mc" id="22" lineNum="16" parent="globals/CacheMenuDelegate" pc="268436027" symbol="onSelect"/>
         <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/CacheMenuDelegate.mc" id="22" lineNum="25" parent="globals/CacheMenuDelegate" pc="268436109" symbol="onSelect"/>
         <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/CacheMenuDelegate.mc" id="22" lineNum="26" parent="globals/CacheMenuDelegate" pc="268436124" symbol="onSelect"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LogMenuDelegate.mc" id="23" lineNum="20" parent="globals/LogMenuDelegate/SendingLogCallback" pc="268436170" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LogMenuDelegate.mc" id="23" lineNum="18" parent="globals/LogMenuDelegate/SendingLogCallback" pc="268436170" symbol="&lt;init&gt;"/>
         <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LogMenuDelegate.mc" id="24" lineNum="8" parent="globals/LogMenuDelegate" pc="268436182" symbol="initialize"/>
         <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LogMenuDelegate.mc" id="24" lineNum="9" parent="globals/LogMenuDelegate" pc="268436184" symbol="initialize"/>
         <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LogMenuDelegate.mc" id="24" lineNum="10" parent="globals/LogMenuDelegate" pc="268436193" symbol="initialize"/>
         <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LogMenuDelegate.mc" id="25" lineNum="13" parent="globals/LogMenuDelegate" pc="268436206" symbol="onSelect"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LogMenuDelegate.mc" id="25" lineNum="14" parent="globals/LogMenuDelegate" pc="268436209" symbol="onSelect"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LogMenuDelegate.mc" id="25" lineNum="15" parent="globals/LogMenuDelegate" pc="268436233" symbol="onSelect"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LogMenuDelegate.mc" id="25" lineNum="17" parent="globals/LogMenuDelegate" pc="268436272" symbol="onSelect"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="26" lineNum="26" parent="globals/LoggerekDelegate/SendingHelloCallback" pc="268436311" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="27" lineNum="46" parent="globals/LoggerekDelegate" pc="268436323" symbol="onMenu"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="27" lineNum="47" parent="globals/LoggerekDelegate" pc="268436325" symbol="onMenu"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="27" lineNum="48" parent="globals/LoggerekDelegate" pc="268436394" symbol="onMenu"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="28" lineNum="8" parent="globals/LoggerekDelegate" pc="268436396" symbol="initialize"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="28" lineNum="9" parent="globals/LoggerekDelegate" pc="268436398" symbol="initialize"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="28" lineNum="10" parent="globals/LoggerekDelegate" pc="268436410" symbol="initialize"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="28" lineNum="11" parent="globals/LoggerekDelegate" pc="268436419" symbol="initialize"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="29" lineNum="22" parent="globals/LoggerekDelegate" pc="268436446" symbol="sendRequestForData"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="29" lineNum="23" parent="globals/LoggerekDelegate" pc="268436448" symbol="sendRequestForData"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="30" lineNum="51" parent="globals/LoggerekDelegate" pc="268436491" symbol="phoneMessageCallback"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="30" lineNum="52" parent="globals/LoggerekDelegate" pc="268436494" symbol="phoneMessageCallback"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="30" lineNum="54" parent="globals/LoggerekDelegate" pc="268436508" symbol="phoneMessageCallback"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="30" lineNum="56" parent="globals/LoggerekDelegate" pc="268436548" symbol="phoneMessageCallback"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="30" lineNum="57" parent="globals/LoggerekDelegate" pc="268436564" symbol="phoneMessageCallback"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="30" lineNum="66" parent="globals/LoggerekDelegate" pc="268436641" symbol="phoneMessageCallback"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="31" lineNum="14" parent="globals/LoggerekDelegate" pc="268436692" symbol="onKey"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="31" lineNum="15" parent="globals/LoggerekDelegate" pc="268436694" symbol="onKey"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="31" lineNum="16" parent="globals/LoggerekDelegate" pc="268436707" symbol="onKey"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="31" lineNum="17" parent="globals/LoggerekDelegate" pc="268436725" symbol="onKey"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="31" lineNum="19" parent="globals/LoggerekDelegate" pc="268436735" symbol="onKey"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="32" lineNum="13" parent="globals/Rez/Layouts" pc="268436737" symbol="MainLayout"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="32" lineNum="14" parent="globals/Rez/Layouts" pc="268436748" symbol="MainLayout"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="32" lineNum="16" parent="globals/Rez/Layouts" pc="268436823" symbol="MainLayout"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="33" lineNum="21" parent="globals/Rez/Menus/MainMenu" pc="268436833" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LogMenuDelegate.mc" id="35" lineNum="29" parent="globals/LogMenuDelegate/SendingLogCallback" pc="268436845" symbol="onComplete"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LogMenuDelegate.mc" id="35" lineNum="30" parent="globals/LogMenuDelegate/SendingLogCallback" pc="268436847" symbol="onComplete"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LogMenuDelegate.mc" id="36" lineNum="22" parent="globals/LogMenuDelegate/SendingLogCallback" pc="268436863" symbol="initialize"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LogMenuDelegate.mc" id="36" lineNum="23" parent="globals/LogMenuDelegate/SendingLogCallback" pc="268436865" symbol="initialize"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="37" lineNum="36" parent="globals/LoggerekDelegate/SendingHelloCallback" pc="268436882" symbol="onError"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="37" lineNum="37" parent="globals/LoggerekDelegate/SendingHelloCallback" pc="268436884" symbol="onError"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="38" lineNum="40" parent="globals/LoggerekDelegate/SendingHelloCallback" pc="268436903" symbol="onComplete"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="38" lineNum="41" parent="globals/LoggerekDelegate/SendingHelloCallback" pc="268436905" symbol="onComplete"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="39" lineNum="30" parent="globals/LoggerekDelegate/SendingHelloCallback" pc="268436924" symbol="initialize"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="39" lineNum="31" parent="globals/LoggerekDelegate/SendingHelloCallback" pc="268436926" symbol="initialize"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="39" lineNum="32" parent="globals/LoggerekDelegate/SendingHelloCallback" pc="268436942" symbol="initialize"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="39" lineNum="33" parent="globals/LoggerekDelegate/SendingHelloCallback" pc="268436951" symbol="initialize"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="40" lineNum="22" parent="globals/Rez/Menus/MainMenu" pc="268436970" symbol="initialize"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="40" lineNum="23" parent="globals/Rez/Menus/MainMenu" pc="268436972" symbol="initialize"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="40" lineNum="24" parent="globals/Rez/Menus/MainMenu" pc="268436984" symbol="initialize"/>
-        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="40" lineNum="25" parent="globals/Rez/Menus/MainMenu" pc="268437029" symbol="initialize"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LogMenuDelegate.mc" id="25" lineNum="14" parent="globals/LogMenuDelegate" pc="268436208" symbol="onSelect"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="26" lineNum="26" parent="globals/LoggerekDelegate/SendingHelloCallback" pc="268436272" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="27" lineNum="46" parent="globals/LoggerekDelegate" pc="268436284" symbol="onMenu"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="27" lineNum="47" parent="globals/LoggerekDelegate" pc="268436286" symbol="onMenu"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="27" lineNum="48" parent="globals/LoggerekDelegate" pc="268436355" symbol="onMenu"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="28" lineNum="8" parent="globals/LoggerekDelegate" pc="268436357" symbol="initialize"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="28" lineNum="9" parent="globals/LoggerekDelegate" pc="268436359" symbol="initialize"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="28" lineNum="10" parent="globals/LoggerekDelegate" pc="268436371" symbol="initialize"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="28" lineNum="11" parent="globals/LoggerekDelegate" pc="268436380" symbol="initialize"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="29" lineNum="22" parent="globals/LoggerekDelegate" pc="268436407" symbol="sendRequestForData"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="29" lineNum="23" parent="globals/LoggerekDelegate" pc="268436409" symbol="sendRequestForData"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="30" lineNum="51" parent="globals/LoggerekDelegate" pc="268436452" symbol="phoneMessageCallback"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="30" lineNum="52" parent="globals/LoggerekDelegate" pc="268436455" symbol="phoneMessageCallback"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="30" lineNum="54" parent="globals/LoggerekDelegate" pc="268436469" symbol="phoneMessageCallback"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="30" lineNum="56" parent="globals/LoggerekDelegate" pc="268436509" symbol="phoneMessageCallback"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="30" lineNum="57" parent="globals/LoggerekDelegate" pc="268436525" symbol="phoneMessageCallback"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="30" lineNum="66" parent="globals/LoggerekDelegate" pc="268436602" symbol="phoneMessageCallback"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="31" lineNum="14" parent="globals/LoggerekDelegate" pc="268436653" symbol="onKey"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="31" lineNum="15" parent="globals/LoggerekDelegate" pc="268436655" symbol="onKey"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="31" lineNum="16" parent="globals/LoggerekDelegate" pc="268436668" symbol="onKey"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="31" lineNum="17" parent="globals/LoggerekDelegate" pc="268436686" symbol="onKey"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="31" lineNum="19" parent="globals/LoggerekDelegate" pc="268436696" symbol="onKey"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="32" lineNum="13" parent="globals/Rez/Layouts" pc="268436698" symbol="MainLayout"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="32" lineNum="14" parent="globals/Rez/Layouts" pc="268436709" symbol="MainLayout"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="32" lineNum="16" parent="globals/Rez/Layouts" pc="268436784" symbol="MainLayout"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="33" lineNum="21" parent="globals/Rez/Menus/MainMenu" pc="268436794" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LogMenuDelegate.mc" id="35" lineNum="27" parent="globals/LogMenuDelegate/SendingLogCallback" pc="268436806" symbol="onComplete"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LogMenuDelegate.mc" id="35" lineNum="28" parent="globals/LogMenuDelegate/SendingLogCallback" pc="268436808" symbol="onComplete"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LogMenuDelegate.mc" id="36" lineNum="20" parent="globals/LogMenuDelegate/SendingLogCallback" pc="268436824" symbol="initialize"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LogMenuDelegate.mc" id="36" lineNum="21" parent="globals/LogMenuDelegate/SendingLogCallback" pc="268436826" symbol="initialize"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="37" lineNum="36" parent="globals/LoggerekDelegate/SendingHelloCallback" pc="268436843" symbol="onError"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="37" lineNum="37" parent="globals/LoggerekDelegate/SendingHelloCallback" pc="268436845" symbol="onError"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="38" lineNum="40" parent="globals/LoggerekDelegate/SendingHelloCallback" pc="268436864" symbol="onComplete"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="38" lineNum="41" parent="globals/LoggerekDelegate/SendingHelloCallback" pc="268436866" symbol="onComplete"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="39" lineNum="30" parent="globals/LoggerekDelegate/SendingHelloCallback" pc="268436885" symbol="initialize"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="39" lineNum="31" parent="globals/LoggerekDelegate/SendingHelloCallback" pc="268436887" symbol="initialize"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="39" lineNum="32" parent="globals/LoggerekDelegate/SendingHelloCallback" pc="268436903" symbol="initialize"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/source/LoggerekDelegate.mc" id="39" lineNum="33" parent="globals/LoggerekDelegate/SendingHelloCallback" pc="268436912" symbol="initialize"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="40" lineNum="22" parent="globals/Rez/Menus/MainMenu" pc="268436931" symbol="initialize"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="40" lineNum="23" parent="globals/Rez/Menus/MainMenu" pc="268436933" symbol="initialize"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="40" lineNum="24" parent="globals/Rez/Menus/MainMenu" pc="268436945" symbol="initialize"/>
+        <entry filename="/Users/szymon/garmin/Loggerek/Loggerek/bin/gen/006-B4376-00/source/Rez.mcgen" id="40" lineNum="25" parent="globals/Rez/Menus/MainMenu" pc="268436990" symbol="initialize"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -181,17 +179,16 @@
         <entry endPc="268436168" name="menu" stackId="2" startPc="268435965"/>
         <entry endPc="268436108" name="i" stackId="3" startPc="268436027"/>
         <entry arg="true" endPc="268436205" name="cacheId" stackId="1" startPc="268436182"/>
-        <entry arg="true" endPc="268436310" name="item" stackId="1" startPc="268436206"/>
-        <entry endPc="268436309" name="message" stackId="2" startPc="268436209"/>
-        <entry arg="true" endPc="268436445" name="view" stackId="1" startPc="268436396"/>
-        <entry arg="true" endPc="268436691" name="msg" stackId="1" startPc="268436491"/>
-        <entry endPc="268436690" name="array" stackId="2" startPc="268436494"/>
-        <entry endPc="268436690" name="menu" stackId="3" startPc="268436494"/>
-        <entry endPc="268436640" name="i" stackId="4" startPc="268436564"/>
-        <entry arg="true" endPc="268436736" name="keyEvent" stackId="1" startPc="268436692"/>
-        <entry arg="true" endPc="268436832" name="dc" stackId="1" startPc="268436737"/>
-        <entry endPc="268436832" name="rez_cmp_local_text_1193959466" stackId="2" startPc="268436748"/>
-        <entry arg="true" endPc="268436969" name="view" stackId="1" startPc="268436924"/>
+        <entry arg="true" endPc="268436271" name="item" stackId="1" startPc="268436206"/>
+        <entry arg="true" endPc="268436406" name="view" stackId="1" startPc="268436357"/>
+        <entry arg="true" endPc="268436652" name="msg" stackId="1" startPc="268436452"/>
+        <entry endPc="268436651" name="array" stackId="2" startPc="268436455"/>
+        <entry endPc="268436651" name="menu" stackId="3" startPc="268436455"/>
+        <entry endPc="268436601" name="i" stackId="4" startPc="268436525"/>
+        <entry arg="true" endPc="268436697" name="keyEvent" stackId="1" startPc="268436653"/>
+        <entry arg="true" endPc="268436793" name="dc" stackId="1" startPc="268436698"/>
+        <entry endPc="268436793" name="rez_cmp_local_text_1193959466" stackId="2" startPc="268436709"/>
+        <entry arg="true" endPc="268436930" name="view" stackId="1" startPc="268436885"/>
     </localVars>
     <deviceInfo deviceVersion="4866e5192c0c99025597cd8e6e841f3d774b64f7" partNumber="006-B4376-00"/>
     <annotations>
@@ -312,58 +309,58 @@
             <param id="cacheId"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436310" name="onSelect" parent="LogMenuDelegate" startPc="268436206">
+        <functionEntry accessMode="public" endPc="268436271" name="onSelect" parent="LogMenuDelegate" startPc="268436206">
             <param id="item"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436322" name="&lt;init&gt;" parent="SendingHelloCallback" startPc="268436311">
+        <functionEntry accessMode="public" endPc="268436283" name="&lt;init&gt;" parent="SendingHelloCallback" startPc="268436272">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436395" name="onMenu" parent="LoggerekDelegate" startPc="268436323">
+        <functionEntry accessMode="public" endPc="268436356" name="onMenu" parent="LoggerekDelegate" startPc="268436284">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436445" name="initialize" parent="LoggerekDelegate" startPc="268436396">
+        <functionEntry accessMode="public" endPc="268436406" name="initialize" parent="LoggerekDelegate" startPc="268436357">
             <param id="view"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436490" name="sendRequestForData" parent="LoggerekDelegate" startPc="268436446">
+        <functionEntry accessMode="public" endPc="268436451" name="sendRequestForData" parent="LoggerekDelegate" startPc="268436407">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436691" name="phoneMessageCallback" parent="LoggerekDelegate" startPc="268436491">
+        <functionEntry accessMode="public" endPc="268436652" name="phoneMessageCallback" parent="LoggerekDelegate" startPc="268436452">
             <param id="msg"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436736" name="onKey" parent="LoggerekDelegate" startPc="268436692">
+        <functionEntry accessMode="public" endPc="268436697" name="onKey" parent="LoggerekDelegate" startPc="268436653">
             <param id="keyEvent"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436832" name="MainLayout" parent="Layouts" startPc="268436737">
+        <functionEntry accessMode="public" endPc="268436793" name="MainLayout" parent="Layouts" startPc="268436698">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436844" name="&lt;init&gt;" parent="MainMenu" startPc="268436833">
+        <functionEntry accessMode="public" endPc="268436805" name="&lt;init&gt;" parent="MainMenu" startPc="268436794">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onError" parent="SendingLogCallback">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436862" name="onComplete" parent="SendingLogCallback" startPc="268436845">
+        <functionEntry accessMode="public" endPc="268436823" name="onComplete" parent="SendingLogCallback" startPc="268436806">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436881" name="initialize" parent="SendingLogCallback" startPc="268436863">
+        <functionEntry accessMode="public" endPc="268436842" name="initialize" parent="SendingLogCallback" startPc="268436824">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436902" name="onError" parent="SendingHelloCallback" startPc="268436882">
+        <functionEntry accessMode="public" endPc="268436863" name="onError" parent="SendingHelloCallback" startPc="268436843">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436923" name="onComplete" parent="SendingHelloCallback" startPc="268436903">
+        <functionEntry accessMode="public" endPc="268436884" name="onComplete" parent="SendingHelloCallback" startPc="268436864">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436969" name="initialize" parent="SendingHelloCallback" startPc="268436924">
+        <functionEntry accessMode="public" endPc="268436930" name="initialize" parent="SendingHelloCallback" startPc="268436885">
             <param id="view"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437074" name="initialize" parent="MainMenu" startPc="268436970">
+        <functionEntry accessMode="public" endPc="268437035" name="initialize" parent="MainMenu" startPc="268436931">
             <documentation/>
         </functionEntry>
     </functions>
