@@ -33,7 +33,7 @@ class LoggerekView extends WatchUi.View {
         var textHeight = dc.getFontHeight(Graphics.FONT_LARGE);
         var textWidth = dc.getTextWidthInPixels(message, Graphics.FONT_LARGE);
         var y = (screenHeight - textHeight) / 2;
-        dc.drawText(140, y, Graphics.FONT_LARGE, message, Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(dc.getWidth()*0.5, y, Graphics.FONT_LARGE, message, Graphics.TEXT_JUSTIFY_CENTER);
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.drawCircle(260, 80, 20); 
     }

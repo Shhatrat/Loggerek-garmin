@@ -1,0 +1,224 @@
+[ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/CacheLegacyMenuDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [WatchUi,1,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/CacheLegacyMenuDelegate.mc"; @line = 3; @symbol_classdef = [CacheLegacyMenuDelegate,3,6,29]; @symbol_extends<0> = [WatchUi,3,38,45]; @symbol_extends<1> = [MenuInputDelegate,3,46,63]; ]
+class CacheLegacyMenuDelegate extends WatchUi.MenuInputDelegate {
+    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/CacheLegacyMenuDelegate.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/CacheLegacyMenuDelegate.mc"; @line = 3; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/CacheLegacyMenuDelegate.mc"; @line = 5; @position = 8; @symbol_vardef = [logArray,5,8,16]; ]
+    var logArray;
+    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/CacheLegacyMenuDelegate.mc"; @line = 6; @position = 8; @symbol_vardef = [cacheArray,6,8,18]; ]
+    var cacheArray;
+    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/CacheLegacyMenuDelegate.mc"; @line = 8; @symbol_functiondef = [initialize,8,13,23]; @symbol_param<0> = [logs,8,24,28]; @symbol_param<1> = [caches,8,30,36]; ]
+    function initialize(logs, caches) as Void {
+_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_8_38_12_4_start:
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/CacheLegacyMenuDelegate.mc" 9 8 ]
+        %tmp.1 = lgetv %logs;
+        symbol [ logs %tmp.1 9 19 23 ];
+        symbol [ logArray ? 9 8 16 ];
+        putv self :logArray %tmp.1;
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/CacheLegacyMenuDelegate.mc" 10 8 ]
+        %tmp.2 = lgetv %caches;
+        symbol [ caches %tmp.2 10 21 27 ];
+        symbol [ cacheArray ? 10 8 18 ];
+        putv self :cacheArray %tmp.2;
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/CacheLegacyMenuDelegate.mc" 11 8 ]
+        symbol [ MenuInputDelegate %tmp.4 11 8 25 ];
+        %tmp.4 = getv ? :MenuInputDelegate;
+        symbol [ initialize %tmp.5 11 26 36 ];
+        %tmp.5 = getv function %tmp.4 :initialize;
+        invoke %tmp.4 %tmp.5();
+_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_8_38_12_4_stop:
+    }
+    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/CacheLegacyMenuDelegate.mc"; @line = 14; @symbol_functiondef = [onMenuItem,14,13,23]; @symbol_param<0> = [item,14,24,28]; ]
+    function onMenuItem(item) {
+_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_14_30_29_4_start:
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/CacheLegacyMenuDelegate.mc" 15 8 ]
+        for @_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_15_8_28_8_for_test @_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_15_8_28_8_for_incr @_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_15_8_28_8_for_end;
+_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_15_8_28_8_for_init:
+        [ "_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_15_8_28_8_for_begin" "_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_15_8_28_8_for_end" ]
+        %i.1 = local;
+        symbol [ i %i.1 15 17 18 ];
+        %tmp.1 = 0;
+        lputv %i.1 %tmp.1;
+        symbol [ i %i.1 15 17 18 ];
+_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_15_8_28_8_for_test:
+        %tmp.2 = lgetv %i.1;
+        symbol [ i %tmp.2 15 24 25 ];
+        symbol [ cacheArray %tmp.4 15 28 38 ];
+        %tmp.4 = getv ? :cacheArray;
+        symbol [ size %tmp.5 15 39 43 ];
+        %tmp.5 = getv function %tmp.4 :size;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        %tmp.7 = lt %tmp.2 %tmp.6;
+        bf %tmp.7 @_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_15_8_28_8_for_end;
+_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_15_8_28_8_for_begin:
+_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_15_51_28_8_start:
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/CacheLegacyMenuDelegate.mc" 16 12 ]
+_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_16_12_27_12_if_stmt:
+        symbol [ cacheArray %tmp.9 16 15 25 ];
+        %tmp.9 = getv ? :cacheArray;
+        %tmp.10 = lgetv %i.1;
+        symbol [ i %tmp.10 16 26 27 ];
+        %tmp.11 = agetv %tmp.9 %tmp.10;
+        %tmp.12 = "cacheId";
+        %tmp.13 = agetv %tmp.11 %tmp.12;
+        %tmp.14 = lgetv %item;
+        symbol [ item %tmp.14 16 43 47 ];
+        %tmp.15 = eq %tmp.13 %tmp.14;
+        bf %tmp.15 @_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_16_12_27_12_if_end;
+_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_16_12_27_12_if_true:
+_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_16_48_27_12_start:
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/CacheLegacyMenuDelegate.mc" 17 16 ]
+        symbol [ System %tmp.17 17 16 22 ];
+        %tmp.17 = getv ? :System;
+        symbol [ print %tmp.18 17 23 28 ];
+        %tmp.18 = getv function %tmp.17 :print;
+        %tmp.19 = "Cache found: ";
+        symbol [ cacheArray %tmp.21 17 47 57 ];
+        %tmp.21 = getv ? :cacheArray;
+        %tmp.22 = lgetv %i.1;
+        symbol [ i %tmp.22 17 58 59 ];
+        %tmp.23 = agetv %tmp.21 %tmp.22;
+        %tmp.24 = "title";
+        %tmp.25 = agetv %tmp.23 %tmp.24;
+        %tmp.26 = add %tmp.19 %tmp.25;
+        invoke %tmp.17 %tmp.18(%tmp.26);
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/CacheLegacyMenuDelegate.mc" 18 16 ]
+        [ "_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_16_48_27_12_start" "_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_16_48_27_12_stop" ]
+        %menu.2 = local;
+        symbol [ menu %menu.2 18 20 24 ];
+        symbol [ WatchUi %tmp.29 18 31 38 ];
+        %tmp.29 = getm $.Toybox.WatchUi;
+        symbol [ Menu %tmp.30 18 39 43 ];
+        %tmp.30 = getv function ? %tmp.29 :Menu;
+        %tmp.27 = newc %tmp.30 ();
+        lputv %menu.2 %tmp.27;
+        symbol [ menu %menu.2 18 20 24 ];
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/CacheLegacyMenuDelegate.mc" 19 16 ]
+        [ "_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_16_48_27_12_start" "_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_16_48_27_12_stop" ]
+        %delegate.3 = local;
+        symbol [ delegate %delegate.3 19 20 28 ];
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/CacheLegacyMenuDelegate.mc" 20 16 ]
+        %tmp.31 = lgetv %menu.2;
+        symbol [ menu %tmp.31 20 16 20 ];
+        symbol [ setTitle %tmp.32 20 21 29 ];
+        %tmp.32 = getv function %tmp.31 :setTitle;
+        symbol [ cacheArray %tmp.34 20 30 40 ];
+        %tmp.34 = getv ? :cacheArray;
+        %tmp.35 = lgetv %i.1;
+        symbol [ i %tmp.35 20 41 42 ];
+        %tmp.36 = agetv %tmp.34 %tmp.35;
+        %tmp.37 = "title";
+        %tmp.38 = agetv %tmp.36 %tmp.37;
+        invoke %tmp.31 %tmp.32(%tmp.38);
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/CacheLegacyMenuDelegate.mc" 21 16 ]
+        for @_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_21_16_23_16_for_test @_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_21_16_23_16_for_incr @_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_21_16_23_16_for_end;
+_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_21_16_23_16_for_init:
+        [ "_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_21_16_23_16_for_begin" "_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_21_16_23_16_for_end" ]
+        %j.4 = local;
+        symbol [ j %j.4 21 25 26 ];
+        %tmp.39 = 0;
+        lputv %j.4 %tmp.39;
+        symbol [ j %j.4 21 25 26 ];
+_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_21_16_23_16_for_test:
+        %tmp.40 = lgetv %j.4;
+        symbol [ j %tmp.40 21 32 33 ];
+        symbol [ logArray %tmp.42 21 36 44 ];
+        %tmp.42 = getv ? :logArray;
+        symbol [ size %tmp.43 21 45 49 ];
+        %tmp.43 = getv function %tmp.42 :size;
+        %tmp.44 = invoke %tmp.42 %tmp.43();
+        %tmp.45 = lt %tmp.40 %tmp.44;
+        bf %tmp.45 @_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_21_16_23_16_for_end;
+_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_21_16_23_16_for_begin:
+_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_21_57_23_16_start:
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/CacheLegacyMenuDelegate.mc" 22 20 ]
+        %tmp.46 = lgetv %menu.2;
+        symbol [ menu %tmp.46 22 20 24 ];
+        symbol [ addItem %tmp.47 22 25 32 ];
+        %tmp.47 = getv function %tmp.46 :addItem;
+        symbol [ logArray %tmp.49 22 33 41 ];
+        %tmp.49 = getv ? :logArray;
+        %tmp.50 = lgetv %j.4;
+        symbol [ j %tmp.50 22 42 43 ];
+        %tmp.51 = agetv %tmp.49 %tmp.50;
+        %tmp.52 = "text";
+        %tmp.53 = agetv %tmp.51 %tmp.52;
+        symbol [ logArray %tmp.55 22 54 62 ];
+        %tmp.55 = getv ? :logArray;
+        %tmp.56 = lgetv %j.4;
+        symbol [ j %tmp.56 22 63 64 ];
+        %tmp.57 = agetv %tmp.55 %tmp.56;
+        %tmp.58 = "logId";
+        %tmp.59 = agetv %tmp.57 %tmp.58;
+        invoke %tmp.46 %tmp.47(%tmp.53, %tmp.59);
+_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_21_57_23_16_stop:
+_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_21_16_23_16_for_incr:
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/CacheLegacyMenuDelegate.mc" 21 ]
+        %tmp.62 = lgetv %j.4;
+        symbol [ j %tmp.62 21 53 54 ];
+        %tmp.63 = add %tmp.62 1;
+        lputv %j.4 %tmp.63;
+        symbol [ j %j.4 21 53 54 ];
+        goto @_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_21_16_23_16_for_test;
+_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_21_16_23_16_for_end:
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/CacheLegacyMenuDelegate.mc" 24 16 ]
+        symbol [ WatchUi %tmp.64 24 16 23 ];
+        %tmp.64 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.65 24 24 31 ];
+        %tmp.65 = getv function %tmp.64 :popView;
+        symbol [ WatchUi %tmp.66 24 32 39 ];
+        %tmp.66 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_UP %tmp.67 24 40 48 ];
+        %tmp.67 = getv %tmp.66 :SLIDE_UP;
+        invoke %tmp.64 %tmp.65(%tmp.67);
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/CacheLegacyMenuDelegate.mc" 25 16 ]
+        symbol [ WatchUi %tmp.68 25 16 23 ];
+        %tmp.68 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.69 25 24 32 ];
+        %tmp.69 = getv function %tmp.68 :pushView;
+        %tmp.70 = lgetv %menu.2;
+        symbol [ menu %tmp.70 25 33 37 ];
+        symbol [ LogLegacyMenuDelegate %tmp.74 25 43 64 ];
+        %tmp.74 = getv ? :LogLegacyMenuDelegate;
+        symbol [ cacheArray %tmp.76 25 65 75 ];
+        %tmp.76 = getv ? :cacheArray;
+        %tmp.77 = lgetv %i.1;
+        symbol [ i %tmp.77 25 76 77 ];
+        %tmp.78 = agetv %tmp.76 %tmp.77;
+        %tmp.79 = "cacheId";
+        %tmp.80 = agetv %tmp.78 %tmp.79;
+        symbol [ logArray %tmp.82 25 91 99 ];
+        %tmp.82 = getv ? :logArray;
+        %tmp.71 = newc %tmp.74 (%tmp.80, %tmp.82);
+        symbol [ WatchUi %tmp.83 25 102 109 ];
+        %tmp.83 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_IMMEDIATE %tmp.84 25 110 125 ];
+        %tmp.84 = getv %tmp.83 :SLIDE_IMMEDIATE;
+        invoke %tmp.68 %tmp.69(%tmp.70, %tmp.71, %tmp.84);
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/CacheLegacyMenuDelegate.mc" 26 16 ]
+        goto break @_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_15_8_28_8_for_end;
+_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_16_48_27_12_stop:
+        goto @_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_16_12_27_12_if_end;
+_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_16_12_27_12_if_end:
+_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_15_51_28_8_stop:
+_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_15_8_28_8_for_incr:
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/CacheLegacyMenuDelegate.mc" 15 ]
+        %tmp.87 = lgetv %i.1;
+        symbol [ i %tmp.87 15 47 48 ];
+        %tmp.88 = add %tmp.87 1;
+        lputv %i.1 %tmp.88;
+        symbol [ i %i.1 15 47 48 ];
+        goto @_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_15_8_28_8_for_test;
+_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_15_8_28_8_for_end:
+_Users_szymon_garmin_Loggerek_Loggerek_source_CacheLegacyMenuDelegate_mc_14_30_29_4_stop:
+    }
+}
+[ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/CacheLegacyMenuDelegate.mc"; @line = 1; ]
+<init> {
+}

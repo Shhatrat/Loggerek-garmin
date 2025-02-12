@@ -25,7 +25,7 @@ class LogMenuDelegate extends WatchUi.Menu2InputDelegate {
         }
 
         function onComplete(){ 
-            WatchUi.popView(WatchUi.SLIDE_UP);    
+           WatchUi.popView(WatchUi.SLIDE_UP);    
         }
     }
 }

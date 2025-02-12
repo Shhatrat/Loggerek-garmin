@@ -93,14 +93,14 @@ _Users_szymon_garmin_Loggerek_Loggerek_source_LogMenuDelegate_mc_20_30_22_8_stop
         [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/source/LogMenuDelegate.mc"; @line = 27; @symbol_functiondef = [onComplete,27,17,27]; ]
         function onComplete() {
 _Users_szymon_garmin_Loggerek_Loggerek_source_LogMenuDelegate_mc_27_29_29_8_start:
-[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LogMenuDelegate.mc" 28 12 ]
-            symbol [ WatchUi %tmp.1 28 12 19 ];
+[ "/Users/szymon/garmin/Loggerek/Loggerek/source/LogMenuDelegate.mc" 28 11 ]
+            symbol [ WatchUi %tmp.1 28 11 18 ];
             %tmp.1 = getm $.Toybox.WatchUi;
-            symbol [ popView %tmp.2 28 20 27 ];
+            symbol [ popView %tmp.2 28 19 26 ];
             %tmp.2 = getv function %tmp.1 :popView;
-            symbol [ WatchUi %tmp.3 28 28 35 ];
+            symbol [ WatchUi %tmp.3 28 27 34 ];
             %tmp.3 = getm $.Toybox.WatchUi;
-            symbol [ SLIDE_UP %tmp.4 28 36 44 ];
+            symbol [ SLIDE_UP %tmp.4 28 35 43 ];
             %tmp.4 = getv %tmp.3 :SLIDE_UP;
             invoke %tmp.1 %tmp.2(%tmp.4);
 _Users_szymon_garmin_Loggerek_Loggerek_source_LogMenuDelegate_mc_27_29_29_8_stop:

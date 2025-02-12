@@ -1,0 +1,41 @@
+[ @file = "/Users/szymon/garmin/Loggerek/Loggerek/VersionHelper.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [System,1,13,19]; ]
+using Toybox.System;
+[ @file = "/Users/szymon/garmin/Loggerek/Loggerek/VersionHelper.mc"; @line = 3; @symbol_classdef = [VersionHelper,3,6,19]; ]
+class VersionHelper {
+    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/VersionHelper.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/VersionHelper.mc"; @line = 3; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/szymon/garmin/Loggerek/Loggerek/VersionHelper.mc"; @line = 5; @symbol_functiondef = [isMenu2Supported,5,13,29]; ]
+    function isMenu2Supported() {
+_Users_szymon_garmin_Loggerek_Loggerek_VersionHelper_mc_5_32_8_4_start:
+[ "/Users/szymon/garmin/Loggerek/Loggerek/VersionHelper.mc" 6 8 ]
+        [ "_Users_szymon_garmin_Loggerek_Loggerek_VersionHelper_mc_5_32_8_4_start" "_Users_szymon_garmin_Loggerek_Loggerek_VersionHelper_mc_5_32_8_4_stop" ]
+        %version.1 = local;
+        symbol [ version %version.1 6 12 19 ];
+        symbol [ System %tmp.1 6 22 28 ];
+        %tmp.1 = getm $.Toybox.System;
+        symbol [ getDeviceSettings %tmp.2 6 29 46 ];
+        %tmp.2 = getv function %tmp.1 :getDeviceSettings;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        symbol [ monkeyVersion %tmp.4 6 49 62 ];
+        %tmp.4 = getv %tmp.3 :monkeyVersion;
+        lputv %version.1 %tmp.4;
+        symbol [ version %version.1 6 12 19 ];
+[ "/Users/szymon/garmin/Loggerek/Loggerek/VersionHelper.mc" 7 8 ]
+        %tmp.5 = lgetv %version.1;
+        symbol [ version %tmp.5 7 15 22 ];
+        %tmp.6 = 0;
+        %tmp.7 = agetv %tmp.5 %tmp.6;
+        %tmp.8 = 3;
+        %tmp.9 = gte %tmp.7 %tmp.8;
+        ret %tmp.9;
+_Users_szymon_garmin_Loggerek_Loggerek_VersionHelper_mc_5_32_8_4_stop:
+    }
+}
+[ @file = "/Users/szymon/garmin/Loggerek/Loggerek/VersionHelper.mc"; @line = 1; ]
+<init> {
+}
